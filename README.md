@@ -54,7 +54,8 @@ This project is a Machine Learning + NLP based web application that automaticall
 
 ## 🖥️ Application UI
 
-👉 Paste resume text and get predicted job category instantly  
+Below is the working interface of the Resume Classification System:
+
 <img width="1196" height="631" alt="image" src="https://github.com/user-attachments/assets/14670776-677b-46a3-9179-20cb6956dd37" />
 <img width="1056" height="626" alt="image" src="https://github.com/user-attachments/assets/2c14146e-95a8-4e7d-b9a5-48e61809643e" />
 <img width="1187" height="240" alt="image" src="https://github.com/user-attachments/assets/d08d8dc8-a263-42ec-8338-25bd045d6b59" />

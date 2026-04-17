@@ -17,9 +17,7 @@ This repository contains a machine learning project focused on automating the re
 - [Dataset](#dataset)
 - [Model](#model)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Future Improvements](#future improvements)
 
 ## Why do we need Resume Screening?
 
@@ -101,15 +99,8 @@ Neural Networks
 Results
 The performance of the models is evaluated using metrics such as accuracy, precision, recall, and F1-score. The results are documented and visualized in the Jupyter notebooks.
 
-Contributing
-Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-Contact
-For any questions or inquiries, please contact:
-
-Anukalp Mishra
-
-GitHub: anukalp-mishra
+## Future Improvements
+Better models (SVM, Logistic Regression)
+More dataset
+Deploy on cloud
+Add resume upload (PDF parsing)

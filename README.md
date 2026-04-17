@@ -65,8 +65,11 @@ This project is a Machine Learning + NLP based web application that automaticall
 ## ⚡ Installation
 
 git clone https://github.com/AyushiSaxena03/AI-Resume-Classifier.git
+
 cd AI-Resume-Classifier
+
 pip install -r requirements.txt
+
 python app.py
 
 ## Usage

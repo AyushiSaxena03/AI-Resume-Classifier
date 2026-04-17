@@ -79,11 +79,15 @@ Open browser at http://127.0.0.1:5000/
 Paste resume text
 Click Predict Category
 View result
+
 📂 Dataset
 Resume dataset containing multiple job categories
+
 Preprocessed using NLP techniques
+
 📈 Results
 Achieved ~82% accuracy
+
 Tested across multiple domains (Data Science, Web Dev, HR, etc.)
 
 ## 🔮 Future Improvements

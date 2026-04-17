@@ -17,7 +17,7 @@ This repository contains a machine learning project focused on automating the re
 - [Dataset](#dataset)
 - [Model](#model)
 - [Results](#results)
-- [Future Improvements](#future improvements)
+- [Future Improvements](#future-improvements)
 
 ## Why do we need Resume Screening?
 
@@ -101,6 +101,9 @@ The performance of the models is evaluated using metrics such as accuracy, preci
 
 ## Future Improvements
 Better models (SVM, Logistic Regression)
+
 More dataset
+
 Deploy on cloud
+
 Add resume upload (PDF parsing)

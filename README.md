@@ -1,109 +1,94 @@
-# Resume Screening
+# 🤖 AI Resume Classification System
 
-This repository contains a machine learning project focused on automating the resume screening process using Python. The primary goal is to develop a model that can efficiently and accurately evaluate resumes based on predefined criteria.
+This project is a Machine Learning + NLP based web application that automatically classifies resumes into different job categories using text analysis techniques.
 
-<img src="Cover.png" alt="resume cover">
+---
 
-## Table of Contents
+## 📌 Why Resume Screening?
 
-- [Why do we need Resume Screening?](#why-do-we-need-resume-screening)
-- [Introduction](#introduction)
-- [Modules & Libraries](#modules--libraries)
-- [Functionality of Application](#functionality-of-application)
-- [Tools & Technologies Used](#tools--technologies-used)
-- [Tech Innovations in Resume Screening](#tech-innovations-in-resume-screening)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dataset](#dataset)
-- [Model](#model)
-- [Results](#results)
-- [Future Improvements](#future-improvements)
+- Companies receive thousands of resumes for each job role  
+- Manual screening is time-consuming and inefficient  
+- Automating this process helps reduce effort and improves accuracy  
 
-## Why do we need Resume Screening?
+👉 This system helps classify resumes in seconds instead of hours.
 
-- For each recruitment, companies take out the resume, referrals and go through them manually.
-- Companies often received thousands of resumes for every job posting.
-- When companies collect resumes then they categorize those resumes according to their requirements and then they send the collected resumes to the Hiring Teams.
-- It becomes very difficult for the hiring teams to read the resume and select the resume according to the requirement, there is no problem if there are one or two resumes but it is very difficult in case of hundreds of resumes.
-- To solve this problem, we will screen the resume using machine learning and NLP using Python so that we can complete days of work in few minutes.
+---
 
-## Introduction
+## ⚙️ Working Pipeline
 
-- Resume screening is the process of determining whether a candidate is qualified for a role based on their education, experience, and other information captured on their resume.
-- It’s a form of pattern matching between a job’s requirements and the qualifications of a candidate based on their resume.
-- The goal of screening resumes is to decide whether to move a candidate forward – usually onto an interview – or to reject them.
+1. Text Preprocessing (cleaning, stopword removal)
+2. Feature Extraction using TF-IDF
+3. Model Training using KNN Classifier
+4. Resume Classification
+5. Prediction via Flask Web Interface
 
-## Modules & Libraries
+---
 
-### Modules
-- **KNN**: It's a supervised technique used for classification. "K" in KNN represents the number of nearest neighbors used to classify or predict in case of continuous variables.
-- **NLP**: Natural Language Processing (NLP) is a field in machine learning with the ability of a computer to understand, analyze, manipulate, and potentially generate human language.
+## 🚀 Features
 
-### Libraries
-- **NumPy**: Fundamental package for Python providing support for large multidimensional arrays and matrices.
-- **Pandas**: Open-source library providing easy data structures and quicker data analysis for Python.
-- **Matplotlib**: Open-source library widely used for creating publication-quality figures in a variety of formats.
-- **Seaborn**: Library derived from Matplotlib used for visualizing statistical models like heat maps.
-- **SciPy**: Open-source software used for scientific computing in Python.
-- **Scikit-learn**: Free software machine learning library for Python used for classification, regression, clustering, and more.
-- **NLTK**: Natural Language Toolkit (NLTK) is a set of processing libraries providing solutions for text analysis and language processing.
+- Resume classification using Machine Learning  
+- NLP-based text preprocessing  
+- TF-IDF vectorization  
+- Flask-based web interface  
+- Real-time prediction  
 
-## Functionality of Application
+---
 
-Screening resumes usually involves a three-step process based on the role’s minimum and preferred qualifications. Both types of qualifications should be related to on-the-job performance. These qualifications can include:
-- Work experience
-- Education
-- Skills and knowledge
-- Personality traits
-- Competencies
+## 🛠️ Tech Stack
 
-## Tools & Technologies Used
+- Python  
+- Scikit-learn  
+- Flask  
+- NumPy, Pandas  
+- NLTK  
+- Matplotlib, Seaborn  
 
-- Machine Learning and Artificial intelligence, along with text mining and natural language processing algorithms, can be applied for the development of programs (i.e. Applicant Tracking Systems) to automate the resume screening process.
+---
 
-## Tech Innovations in Resume Screening
+## 📊 Model
 
-- Designed to meet the needs of recruiters that current technology can’t solve, a new class of recruiting technology called AI for recruitment has arrived.
-- AI for recruiting is an emerging category of HR technology designed to reduce — or even remove — time-consuming, administrative activities like manually screening resumes.
-- The best AI software is designed to integrate seamlessly with your current recruiting stack so it doesn’t disrupt your workflow nor the candidate workflow.
-- Industry experts predict this type of automation technology will transform the recruiting function.
+- Algorithm: K-Nearest Neighbors (KNN)  
+- Accuracy: ~82% on test dataset  
 
-## Installation
+---
 
-To get started with the project, clone the repository and install the required dependencies.
+## 🖥️ Application UI
 
-```bash
-git clone https://github.com/anukalp-mishra/Resume-Screening.git
-cd Resume-Screening
+👉 Paste resume text and get predicted job category instantly  
+<img width="1196" height="631" alt="image" src="https://github.com/user-attachments/assets/14670776-677b-46a3-9179-20cb6956dd37" />
+<img width="1056" height="626" alt="image" src="https://github.com/user-attachments/assets/2c14146e-95a8-4e7d-b9a5-48e61809643e" />
+<img width="674" height="189" alt="image" src="https://github.com/user-attachments/assets/96d929a1-a7ff-47b5-893f-03e6990c837e" />
+
+
+
+## ⚡ Installation
+
+git clone https://github.com/AyushiSaxena03/AI-Resume-Classifier.git
+cd AI-Resume-Classifier
 pip install -r requirements.txt
-```
+python app.py
+
 ## Usage
-Follow these steps to use the project:
-
-Prepare your dataset of resumes.
-Preprocess the data using the provided scripts.
-Train the machine learning model.
-Use the trained model to screen new resumes.
-Detailed instructions for each step can be found in the Jupyter notebooks provided in the repository.
-
-Dataset
-The dataset used for this project consists of resumes collected from various sources. The data is preprocessed to extract relevant features such as skills, experience, and education.
-
-Model
-The project uses various machine learning models to evaluate resumes. These models are trained on labeled data to classify resumes based on predefined criteria. The models include:
-
-Logistic Regression
-Support Vector Machines
-Random Forest
-Neural Networks
-Results
-The performance of the models is evaluated using metrics such as accuracy, precision, recall, and F1-score. The results are documented and visualized in the Jupyter notebooks.
+Run the Flask app
+Open browser at http://127.0.0.1:5000/
+Paste resume text
+Click Predict Category
+View result
+📂 Dataset
+Resume dataset containing multiple job categories
+Preprocessed using NLP techniques
+📈 Results
+Achieved ~82% accuracy
+Tested across multiple domains (Data Science, Web Dev, HR, etc.)
 
 ## Future Improvements
-Better models (SVM, Logistic Regression)
-
-More dataset
-
+Use advanced models (SVM, Logistic Regression)
+Improve dataset quality
 Deploy on cloud
+Add PDF resume upload & parsing
 
-Add resume upload (PDF parsing)
+## Key Learning
+NLP preprocessing
+Feature engineering using TF-IDF
+Model training & evaluation
+Building ML-powered web apps using Flask

@@ -57,7 +57,8 @@ This project is a Machine Learning + NLP based web application that automaticall
 👉 Paste resume text and get predicted job category instantly  
 <img width="1196" height="631" alt="image" src="https://github.com/user-attachments/assets/14670776-677b-46a3-9179-20cb6956dd37" />
 <img width="1056" height="626" alt="image" src="https://github.com/user-attachments/assets/2c14146e-95a8-4e7d-b9a5-48e61809643e" />
-<img width="674" height="189" alt="image" src="https://github.com/user-attachments/assets/96d929a1-a7ff-47b5-893f-03e6990c837e" />
+<img width="1187" height="240" alt="image" src="https://github.com/user-attachments/assets/d08d8dc8-a263-42ec-8338-25bd045d6b59" />
+
 
 
 
@@ -81,14 +82,20 @@ Preprocessed using NLP techniques
 Achieved ~82% accuracy
 Tested across multiple domains (Data Science, Web Dev, HR, etc.)
 
-## Future Improvements
+## 🔮 Future Improvements
 Use advanced models (SVM, Logistic Regression)
+
 Improve dataset quality
+
 Deploy on cloud
+
 Add PDF resume upload & parsing
 
-## Key Learning
+## 💡 Key Learning
 NLP preprocessing
+
 Feature engineering using TF-IDF
+
 Model training & evaluation
+
 Building ML-powered web apps using Flask
